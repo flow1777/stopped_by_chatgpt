@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ByteSize</name>
+    </assembly>
+    <members>
+        <member name="T:ByteSizeLib.ByteSize">
+            <summary>
+            Represents a byte size value with support for decimal (KiloByte) and
+            binary values (KibiByte).
+            </summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInKibiByte">
+            <summary>Number of bytes in 1 kibibyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInMebiByte">
+            <summary>Number of bytes in 1 mebibyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInGibiByte">
+            <summary>Number of bytes in 1 gibibyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInTebiByte">
+            <summary>Number of bytes in 1 tebibyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInPebiByte">
+            <summary>Number of bytes in 1 pebibyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.KibiByteSymbol">
+            <summary>Kibibyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.MebiByteSymbol">
+            <summary>Mebibyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.GibiByteSymbol">
+            <summary>Gibibyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.TebiByteSymbol">
+            <summary>Tebibyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.PebiByteSymbol">
+            <summary>Pebibyte symbol.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.KibiBytes">
+            <summary>Gets the number of kibibytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.MebiBytes">
+            <summary>Gets the number of mebibytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.GibiBytes">
+            <summary>Gets the number of gibibytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.TebiBytes">
+            <summary>Gets the number of tebibytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.PebiBytes">
+            <summary>Gets the number of pebibytes represented by this object.</summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromKibiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of kibibytes (1 KiB = 1024 B).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromMebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of mebibytes (1 MiB = 1024 KiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromGibiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of gibibytes (1 GiB = 1024 MiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromTebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of tebibytes (1 TiB = 1024 GiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromPebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of pebibytes (1 PiB = 1024 TiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddKibiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of kibibytes (1 KiB = 1024 B).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddMebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of mebibytes (1 MiB = 1024 KiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddGibiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of gibibytes (1 GiB = 1024 MiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddTebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of tebibytes (1 TiB = 1024 GiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddPebiBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of pebibytes (1 PiB = 1024 TiB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToBinaryString">
+            <summary>
+            Converts the value of the current object to a binary byte string.
+            The prefix symbol (bit, byte, kibi, mebi, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            </summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToBinaryString(System.IFormatProvider)">
+            <summary>
+            Converts the value of the current object to a binary byte string.
+            The prefix symbol (bit, byte, kibi, mebi, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            Use <see cref="M:ByteSizeLib.ByteSize.ToString"/> for decimal string representation.
+            </summary>
+            <param name="formatProvider">An object that supplies culture-specific formatting information.</param>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.MinValue">
+            <summary>Minimum number of allowed bits in an instance.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.MaxValue">
+            <summary>Maximum number of allowed bits in an instance.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BitsInByte">
+            <summary>Number of bits in 1 byte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BitSymbol">
+            <summary>Bit symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.ByteSymbol">
+            <summary>Byte symbol.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.Bits">
+            <summary>Gets the number of bits represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.Bytes">
+            <summary>Gets the number of bytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.LargestWholeNumberBinarySymbol">
+            <summary>
+            Gets the largest whole number binary symbol.
+            Example: 
+            <para>- 1024 KiB will return MiB</para>
+            <para>- 1023 KiB will return KiB</para>
+            </summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.LargestWholeNumberDecimalSymbol">
+            <summary>
+            Gets the largest whole number decimal symbol.
+            Example: 
+            <para>- 1000 KB will return MB</para>
+            <para>- 999 KB will return KB</para>
+            </summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.LargestWholeNumberBinaryValue">
+            <summary>
+            Gets the largest whole number binary value.
+            Example: 
+            <para>- 1024 KiB will return 1</para>
+            <para>- 1023 KiB will return 1023</para>
+            </summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.LargestWholeNumberDecimalValue">
+            <summary>
+            Gets the largest whole number decimal value.
+            Example: 
+            <para>- 1000 KB will return 1</para>
+            <para>- 999 KB will return 999</para>
+            </summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.#ctor(System.Int64)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ByteSizeLib.ByteSize" /> structure to the specified
+            number of units.
+            </summary>
+            <param name="bits">Number of bits.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.#ctor(System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ByteSizeLib.ByteSize" /> structure to the specified
+            number of units.
+            </summary>
+            <param name="bytes">Number of bytes.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromBits(System.Int64)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of bits.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of bytes.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToString">
+            <summary>
+            Converts the value of the current object to a decimal byte string.
+            The prefix symbol (bit, byte, kilo, mega, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            Use <see cref="M:ByteSizeLib.ByteSize.ToBinaryString"/> for binary string representation.
+            </summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToString(System.String)">
+            <summary>
+            Converts the value of the current object to a decimal byte string.
+            The prefix symbol (bit, byte, kilo, mega, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            Use <see cref="M:ByteSizeLib.ByteSize.ToBinaryString"/> for binary string representation.
+            </summary>
+            <param name="format">A numeric format string.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            Converts the value of the current object to a decimal byte string.
+            The prefix symbol (bit, byte, kilo, mega, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            Use <see cref="M:ByteSizeLib.ByteSize.ToBinaryString"/> for binary string representation.
+            </summary>
+            <param name="format">A numeric format string.</param>
+            <param name="provider">An object that supplies culture-specific formatting information.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.ToString(System.String,System.IFormatProvider,System.Boolean)">
+            <summary>
+            Converts the value of the current object to a decimal byte string.
+            The prefix symbol (bit, byte, kilo, mega, etc.) used is the
+            largest prefix such that the corresponding value is greater than or
+            equal to one.
+            Use <see cref="M:ByteSizeLib.ByteSize.ToBinaryString"/> for binary string representation.
+            </summary>
+            <param name="format">A numeric format string.</param>
+            <param name="provider">An object that supplies culture-specific formatting information.</param>
+            <param name="useBinaryByte"><see langword="true"/> to use binary byte values (1 KiB = 1024) instead of decimal values (1 KB = 1000 B).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Equals(System.Object)">
+            <summary>
+            Indicates whether an instance has equal number of bits to this instance.
+            </summary>
+            <param name="value">The instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Equals(ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether an instance has equal number of bits to this instance.
+            </summary>
+            <param name="value">The instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.GetHashCode">
+            <summary>Returns the hash code for this instance.</summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.CompareTo(ByteSizeLib.ByteSize)">
+            <summary>
+            Compares this instance's bit count to the other instance's bit count.
+            </summary>
+            <param name="other">The instance to compare.</param>
+            <returns>
+            A signed number indicating the relative values of this instance and other. 
+            <para>Negative return value: this instance is less than the one specified.</para>
+            <para>Zero return value: this instance is equal to the one specified.</para>
+            <para>Positive return value: this instance is greater than the one specified.</para>
+            </returns>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)">
+            <summary>
+            Returns a new <see cref="T:ByteSizeLib.ByteSize" /> object whose value is the sum of the specified
+            value and this instance.
+            </summary>
+            <param name="bs">The <see cref="T:ByteSizeLib.ByteSize" /> instance to sum.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddBits(System.Int64)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">The number of bits.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">The number of bytes.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Subtract(ByteSizeLib.ByteSize)">
+            <summary>
+            Returns a new <see cref="T:ByteSizeLib.ByteSize" /> object whose value is the difference of the specified
+            value and this instance.
+            </summary>
+            <param name="bs">The <see cref="T:ByteSizeLib.ByteSize" /> instance to subtract.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Addition(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="b1">The first instance.</param>
+            <param name="b2">The second instance.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Increment(ByteSizeLib.ByteSize)">
+            <summary>
+            Returns an instance whose value is 1 byte greater than this instance.
+            </summary>
+            <param name="b">The instance to increment.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_UnaryNegation(ByteSizeLib.ByteSize)">
+            <summary>
+            Returns a new instance whose value is the negative value of the specified instance.
+            </summary>
+            <param name="b">The instance to be negated.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Subtraction(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Subtract(ByteSizeLib.ByteSize)" />
+            <param name="b1">The first instance.</param>
+            <param name="b2">The second instance.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Decrement(ByteSizeLib.ByteSize)">
+            <summary>
+            Returns a new instance whose value is 1 byte less than this instance.
+            </summary>
+            <param name="b">The instance to decrement.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Multiply(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Multiply two instances.
+            </summary>
+            <param name="a">First instance to multiply.</param>
+            <param name="b">Second instance to multiply.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Division(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Divides two instances.
+            </summary>
+            <param name="a">The dividend.</param>
+            <param name="b">The divisor.</param>
+            <exception cref="T:System.DivideByZeroException">Thrown if <paramref name="b" /> is zero.</exception>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Equality(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether two instances have equal number of bits.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_Inequality(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether two instances have different number of bits.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_LessThan(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether one instance has less bits than the other.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_LessThanOrEqual(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether one instance has less or equal bits than the other.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_GreaterThan(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether one instance has more bits than the other.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.op_GreaterThanOrEqual(ByteSizeLib.ByteSize,ByteSizeLib.ByteSize)">
+            <summary>
+            Indicates whether one instance has more bits or equal than the other.
+            </summary>
+            <param name="b1">The first instance to compare.</param>
+            <param name="b2">The second instance to compare.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Parse(System.String)">
+            <summary>
+            Converts the string representation of a binary or decimal byte to its <see cref="T:ByteSizeLib.ByteSize" /> equivalent.
+            </summary>
+            <param name="s">A string that contains a <see cref="T:ByteSizeLib.ByteSize" /> to convert.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Parse(System.String,System.IFormatProvider)">
+            <summary>
+            Converts the string representation of a binary or decimal byte to its <see cref="T:ByteSizeLib.ByteSize" /> equivalent.
+            </summary>
+            <param name="s">A string that contains a <see cref="T:ByteSizeLib.ByteSize" /> to convert.</param>
+            <param name="formatProvider">An object that supplies culture-specific formatting information.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)">
+            <summary>
+            Converts the string representation of a binary or decimal byte to its <see cref="T:ByteSizeLib.ByteSize" /> equivalent.
+            </summary>
+            <param name="s">A string that contains a <see cref="T:ByteSizeLib.ByteSize" /> to convert.</param>
+            <param name="numberStyles">Number style of the string being parsed.</param>
+            <param name="formatProvider">An object that supplies culture-specific formatting information.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.TryParse(System.String,ByteSizeLib.ByteSize@)">
+            <summary>
+            Converts the string representation of a binary or decimal byte to its <see cref="T:ByteSizeLib.ByteSize" /> equivalent.
+            Return value indicates success or failure of the parsing.
+            </summary>
+            <param name="s">A string that contains a <see cref="T:ByteSizeLib.ByteSize" /> to convert.</param>
+            <param name="result">Object reference to store the result if successful.</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,ByteSizeLib.ByteSize@)">
+            <summary>
+            Converts the string representation of a binary or decimal byte to its <see cref="T:ByteSizeLib.ByteSize" /> equivalent.
+            Return value indicates success or failure of the parsing.
+            </summary>
+            <param name="s">A string that contains a <see cref="T:ByteSizeLib.ByteSize" /> to convert.</param>
+            <param name="numberStyles">Number style of the string being parsed.</param>
+            <param name="formatProvider">An object that supplies culture-specific formatting information.</param>
+            <param name="result">Object reference to store the result if successful.</param>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInKiloByte">
+            <summary>Number of bytes in 1 kilobyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInMegaByte">
+            <summary>Number of bytes in 1 megabyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInGigaByte">
+            <summary>Number of bytes in 1 gigabyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInTeraByte">
+            <summary>Number of bytes in 1 terabyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.BytesInPetaByte">
+            <summary>Number of bytes in 1 petabyte.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.KiloByteSymbol">
+            <summary>Kilobyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.MegaByteSymbol">
+            <summary>Megabyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.GigaByteSymbol">
+            <summary>Gigabyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.TeraByteSymbol">
+            <summary>Terabyte symbol.</summary>
+        </member>
+        <member name="F:ByteSizeLib.ByteSize.PetaByteSymbol">
+            <summary>Petabyte symbol.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.KiloBytes">
+            <summary>Gets the number of kilobytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.MegaBytes">
+            <summary>Gets the number of megabytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.GigaBytes">
+            <summary>Gets the number of gigabytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.TeraBytes">
+            <summary>Gets the number of terabytes represented by this object.</summary>
+        </member>
+        <member name="P:ByteSizeLib.ByteSize.PetaBytes">
+            <summary>Gets the number of petabytes represented by this object.</summary>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromKiloBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of kilobytes (1 KB = 1000 B).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromMegaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of megabytes (1 MB = 1000 KB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromGigaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of gigabytes (1 GB = 1000 MB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromTeraBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of terabytes (1 TB = 1000 GB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.FromPetaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.#ctor(System.Int64)" />
+            <param name="value">Number of terabytes (1 PB = 1000 TB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddKiloBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of kilobytes (1 KB = 1000 B).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddMegaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of megabytes (1 MB = 1000 KB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddGigaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of gigabytes (1 GB = 1000 MB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddTeraBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of terabytes (1 TB = 1000 GB).</param>
+        </member>
+        <member name="M:ByteSizeLib.ByteSize.AddPetaBytes(System.Double)">
+            <inheritdoc cref="M:ByteSizeLib.ByteSize.Add(ByteSizeLib.ByteSize)" />
+            <param name="value">Number of petabytes (1 PB = 1000 TB).</param>
+        </member>
+    </members>
+</doc>

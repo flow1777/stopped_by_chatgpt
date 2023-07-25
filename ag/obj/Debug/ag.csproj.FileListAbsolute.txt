@@ -1,0 +1,13 @@
+C:\Users\Administrator\source\repos\ag\ag\bin\Debug\ag.exe.config
+C:\Users\Administrator\source\repos\ag\ag\bin\Debug\ag.exe
+C:\Users\Administrator\source\repos\ag\ag\bin\Debug\ag.pdb
+C:\Users\Administrator\source\repos\ag\ag\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.NLogin.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.csproj.CopyComplete
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.exe
+C:\Users\Administrator\source\repos\ag\ag\obj\Debug\ag.pdb

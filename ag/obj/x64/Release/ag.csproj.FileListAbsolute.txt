@@ -1,0 +1,174 @@
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\ag.exe.config
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\ag.exe
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\ag.pdb
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.NLogin.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.Properties.Resources.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.CopyComplete
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.exe
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.pdb
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.Others.NRegister.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.Forms.NMain.resources
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.Forms.NNotify.resources
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\ByteSize.xml
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\RamDrive.OsfMount.xml
+C:\Users\Administrator\source\repos\ag\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\source\repos\ag\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\ag.exe.config
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\ag.exe
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\ag.pdb
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\ByteSize.xml
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\RamDrive.OsfMount.xml
+C:\Users\Administrator\source\repos\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.NLogin.resources
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.exe
+C:\Users\Administrator\source\repos\Skript\ag\obj\x64\Release\ag.pdb
+D:\Skript\Skript\ag\bin\x64\Release\ag.exe.config
+D:\Skript\Skript\ag\bin\x64\Release\ag.exe
+D:\Skript\Skript\ag\bin\x64\Release\ag.pdb
+D:\Skript\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+D:\Skript\Skript\ag\obj\x64\Release\ag.NLogin.resources
+D:\Skript\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+D:\Skript\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+D:\Skript\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+D:\Skript\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+D:\Skript\Skript\ag\obj\x64\Release\ag.exe
+D:\Skript\Skript\ag\obj\x64\Release\ag.pdb
+D:\Skript\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\nash\Desktop\Skript\ag\bin\x64\Release\ag.exe.config
+C:\Users\nash\Desktop\Skript\ag\bin\x64\Release\ag.exe
+C:\Users\nash\Desktop\Skript\ag\bin\x64\Release\ag.pdb
+C:\Users\nash\Desktop\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.NLogin.resources
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.exe
+C:\Users\nash\Desktop\Skript\ag\obj\x64\Release\ag.pdb
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.NLogin.resources
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.exe
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.pdb
+D:\Skript v3\Skript\ag\bin\x64\Release\ag.exe.config
+D:\Skript v3\Skript\ag\bin\x64\Release\ag.exe
+D:\Skript v3\Skript\ag\bin\x64\Release\ag.pdb
+D:\Skript v3\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+D:\Skript v3\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+D:\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe.config
+D:\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe
+D:\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.pdb
+D:\Skript v5\Skript v5\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.NLogin.resources
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.exe
+D:\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.pdb
+D:\HD\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe.config
+D:\HD\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe
+D:\HD\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.pdb
+D:\HD\Skript v5\Skript v5\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.NLogin.resources
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.exe
+D:\HD\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.pdb
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe.config
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.exe
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\bin\x64\Release\ag.pdb
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.NLogin.resources
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.exe
+C:\Users\wi9xy\Downloads\Skript v5\Skript v5\Skript\ag\obj\x64\Release\ag.pdb
+E:\Skript\ag\bin\x64\Release\ag.exe.config
+E:\Skript\ag\bin\x64\Release\ag.exe
+E:\Skript\ag\bin\x64\Release\ag.pdb
+E:\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+E:\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+E:\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+E:\Skript\ag\obj\x64\Release\ag.NLogin.resources
+E:\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+E:\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+E:\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+E:\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+E:\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+E:\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+E:\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+E:\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+E:\Skript\ag\obj\x64\Release\ag.exe
+E:\Skript\ag\obj\x64\Release\ag.pdb
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\bin\x64\Release\ag.exe.config
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\bin\x64\Release\ag.exe
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\bin\x64\Release\ag.pdb
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\bin\x64\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.NLogin.resources
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.Forms.NMain.resources
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.Forms.NNotify.resources
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.Others.NRegister.resources
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.Properties.Resources.resources
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.csproj.CopyComplete
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.exe
+C:\Users\Administrator\Documents\Stoppados BYPASS\Skript\ag\obj\x64\Release\ag.pdb
